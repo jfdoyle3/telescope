@@ -1,8 +1,5 @@
-# Starter Repository Template
+# Telescope controller and Calculations
 
-This Repository has a customized gitignore file
-ignores:
-VS CODE, Visual Studio, Eclipse IDE, Intellij IDEA, Python,
-Gradle, Maven.
+Telescope controller - raspberry pi 3b+ using motors to move a telescope to diesire location
 
-- added Visual Studio in gitignore 1/31/2023
+Calculations - Calculate lens magnification, etc.
