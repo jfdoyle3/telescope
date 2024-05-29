@@ -1,6 +1,6 @@
 from controller import *
-from telescopes.zhumell114 import *
-from telescopes.lens_calculator import *
+from objects.zhumell114 import *
+from objects.lens import *
 
 telescope = Zhumell114()
 lens = lens("17mm", 17)
