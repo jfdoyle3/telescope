@@ -4,7 +4,10 @@ class lens:
         self.magnification=magnification
 
 
-
+# Base Lens Magnification
+def base(focal)
+baseLensMagnification=telescope.baseLensMagnification(lens)
+print("Focal length at "+str(telescope.focalLength)+"mm with a "+str(lens)+"mm is "+str(round(baseLensMagnification))+"X magnification.")
 
 
 

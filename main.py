@@ -4,6 +4,7 @@ from objects.lens import *
 
 telescope = Zhumell114()
 lens = lens("17mm", 17)
+customLens=lens("custom",0)
 
 userInput = input("Enter Lens Magnification: (17mm) ")
 
