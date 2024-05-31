@@ -23,13 +23,13 @@ class Zhumell114:
         baseLensFocalLength=self.focalLength/lensFocalLength
         return baseLensFocalLength
     
-    def baseBarlowX2Magnification(self):
-        baseBarlowX2Magnification=self.focalLength*2
-        return baseBarlowX2Magnification
+    def baseBarlowMagnification(self,magnification):
+        baseBarlowMagnification=self.focalLength*magnification
+        return baseBarlowMagnification
 
-    def lensBarlowX2Magnification(self,lensFocalLength):
-        lensBarlowX2Magnification=self.focalLength*2/lensFocalLength
-        return lensBarlowX2Magnification
+    def lensBarlowMagnification(self,lensFocalLength,magnification):
+        lensBarlowMagnification=self.focalLength*magnification/lensFocalLength
+        return lensBarlowMagnification
 
     def highestUsefulMagnification(self):
         highestMagnification=self.aperture*30

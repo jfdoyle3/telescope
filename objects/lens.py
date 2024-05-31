@@ -4,20 +4,8 @@ class lens:
         self.focalLength=magnification
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- """       
+ """
+  This is in the 
 
     def baseLensMagnification(self,lensFocalLength):
         baseLensFocalLength=self.focalLength/lensFocalLength
